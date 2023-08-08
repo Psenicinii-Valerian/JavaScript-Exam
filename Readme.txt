@@ -1,0 +1,1 @@
+This is my JavaScript Exam Project - E-Commerce Website for Selling Various Products(parfumes, smartphones, tablets and so on...)
