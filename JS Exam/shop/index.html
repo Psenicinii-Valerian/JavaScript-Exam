@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Page</title>
+    <link rel="stylesheet" href="./scss/styles.css">
+</head>
+<body>
+    <!-- navbar -->
+    <div id="navbar">
+        <!-- Home button -->
+        <a href="index.html" id="home">BestShop</a>
+        <!-- searchbox -->
+        <div id="search">
+            <input type="text" id="search-box" placeholder="Search...">
+            <button type="submit" id="search-btn"><img src="../images/Search.png" id="search-img" alt=""></button>
+        </div>
+        <!-- shopping cart -->
+        <a href="../shopping-cart/shopping-cart.html" id="shopping-cart">
+            <img src="../images/Shopping_Cart.png" id="shopping-cart-img" alt="">
+            Shopping Cart
+        </a>
+        <!-- weather -->
+        <div id="weather"></div>
+    </div>
+
+    <!-- filters -->
+    <div id="filters">
+        <label for="category">Category:
+            <select id="category">
+                <option value="Any">Any</option>
+                <option value="Parfume">Parfume</option>
+                <option value="IPhone">IPhone</option>
+                <option value="Ipad">Ipad</option>
+                <option value="MacBook">MacBook</option>
+                <option value="Smartphone">Smartphone</option>
+            </select>
+        </label> 
+        <label for="price">Price:
+            <select id="price">
+                <option value="any">Any</option>
+                <option value="ascending">Ascending</option>
+                <option value="descending">Descending</option>
+            </select>
+        </label>
+        <label for="name">Name:
+            <select id="name">
+                <option value="any">Any</option>
+                <option value="alphabeticallyAscending">A-z</option>
+                <option value="alphabeticallyDescending">Z-a</option>
+            </select>
+        </label>
+    </div>
+
+    <!-- shop data -->
+    <div id="data"></div>
+
+    <!-- js script -->
+    <script src="app.js"></script>
+</body>
+</html>

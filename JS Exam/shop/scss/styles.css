@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
+* {
+  max-width: 100%;
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  min-height: 100vh;
+  background-color: rgb(252, 239, 255);
+}
+
+#navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  height: 37px;
+  top: 0px;
+  background-color: rgb(240, 223, 255);
+  padding-bottom: 53px;
+}
+#navbar #weather {
+  position: absolute;
+  right: 20px;
+  top: 5px;
+  font-size: 16px;
+  margin: 0;
+  background: transparent;
+  width: auto;
+  height: 3px;
+}
+#navbar #weather p {
+  background-color: transparent;
+}
+#navbar #shopping-cart {
+  background-color: transparent;
+  position: absolute;
+  right: 20px;
+  top: 45px;
+  font-size: 16px;
+  text-decoration: none;
+  color: #000;
+}
+#navbar #shopping-cart:hover {
+  color: rgb(111, 44, 244);
+  cursor: pointer;
+}
+#navbar #shopping-cart-img {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: 104px;
+}
+#navbar #search {
+  padding-top: 45px;
+  position: relative;
+  background-color: transparent;
+}
+#navbar #search #search-box {
+  height: 40px;
+  width: 350px;
+  border-radius: 20px;
+  background: transparent;
+  box-sizing: border-box;
+  padding-left: 17px;
+  font-size: 17px;
+  outline: none;
+  border: 1.5px solid black;
+}
+#navbar #search #search-btn {
+  border: 0px;
+  position: absolute;
+  top: 57px;
+  right: 10px;
+  width: auto;
+  height: auto;
+  padding: 0px;
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+}
+#navbar #search #search-btn:hover {
+  cursor: pointer;
+}
+#navbar #search #search-btn #search-img {
+  width: 17px;
+  height: 17px;
+}
+#navbar #home {
+  text-decoration: none;
+  color: black;
+  font-size: 32px;
+  position: absolute;
+  left: 50px;
+  top: 25px;
+  color: rgb(172, 76, 255);
+}
+
+#filters {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  gap: 260px;
+}
+#filters select {
+  box-sizing: border-box;
+  width: 150px;
+  height: 30px;
+  border: 1.5px solid rgb(228, 197, 255);
+  border-radius: 50px;
+  outline: none;
+  margin-left: 5px;
+  background-color: transparent;
+  font-size: 16px;
+  text-align: center;
+}
+#filters select:hover {
+  cursor: pointer;
+}
+#filters select option {
+  background-color: rgb(251, 234, 255);
+}
+
+#data {
+  padding-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding-bottom: 20px;
+  height: 100%;
+}
+
+.product {
+  flex-basis: 20%;
+  text-align: center;
+  padding-bottom: 30px;
+}
+.product h2 {
+  margin: 0px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  height: 10px;
+}
+.product p {
+  font-size: 20px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  margin: 0px;
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+.product button {
+  background-color: rgb(209, 167, 245);
+  color: white;
+  padding: 8.5px 40px;
+  border-radius: 50px;
+  border: none;
+  font-size: 15px;
+  width: 230px;
+  height: 35px;
+}
+.product button:hover {
+  background-color: rgb(111, 44, 244);
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.7s ease;
+}
+.product img {
+  width: 225px;
+  height: 225px;
+}/*# sourceMappingURL=styles.css.map */

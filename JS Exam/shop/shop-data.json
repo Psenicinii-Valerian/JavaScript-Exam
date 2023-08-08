@@ -1,0 +1,144 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Million Paco Rabanne",
+            "price": 80,
+            "category": "Parfume",
+            "img": "../images/Million.png"
+        },
+        {
+            "id": 2,
+            "name": "Orange Hugo Boss",
+            "category": "Parfume",
+            "price": 85,
+            "img": "../images/Hugo_Boss_Orange.png"
+        },
+        {
+            "id": 3,
+            "name": "Allure Blanche Chanel",
+            "price": 100,
+            "category": "Parfume",
+            "img": "../images/Coco_Chanel_Allure.png"
+        },
+        {
+            "id": 4,
+            "name": "Energise Hugo Boss",
+            "price": 90,
+            "category": "Parfume",
+            "img": "../images/Hugo_Boss_Energise.png"
+        },
+        {
+            "id": 5,
+            "name": "Iphone 14 Pro Max Purple",
+            "price": 1300,
+            "category": "IPhone",
+            "img": "../images/Iphone_14_Purple.png"
+        },
+        {
+            "id": 6,
+            "name": "Iphone 14 Pro Max Gold",
+            "price": 1350,
+            "category": "IPhone",
+            "img": "../images/Iphone_14_Gold.png"
+        },
+        {
+            "id": 7,
+            "name": "Iphone 14 Pro Max Black",
+            "price": 1250,
+            "category": "IPhone",
+            "img": "../images/Iphone_14_Black.png"
+        },
+        {
+            "id": 8,
+            "name": "Samsung A53 8GB Peach",
+            "price": 370,
+            "category": "Smartphone",
+            "img": "../images/Samsung_A53_Peach.png"
+        },
+        {
+            "id": 9,
+            "name": "Samsung A53 8GB Blue",
+            "price": 360,
+            "category": "Smartphone",
+            "img": "../images/Samsung_A53_Blue.png"
+        },
+        {
+            "id": 10,
+            "name": "Samsung A53 8GB Black",
+            "price": 350,
+            "category": "Smartphone",
+            "img": "../images/Samsung_A53_Black.png"
+        },
+        {
+            "id": 11,
+            "name": "Samsung S23 Ultra Cream",
+            "price": 1500,
+            "category": "Smartphone",
+            "img": "../images/Samsung_S23Ultra_Cream.png"
+        },
+        {
+            "id": 12,
+            "name": "Samsung S23 Ultra Green",
+            "price": 1500,
+            "category": "Smartphone",
+            "img": "../images/Samsung_S23Ultra_Green.png"
+        },
+        {
+            "id": 13,
+            "name": "Samsung S23 Ultra Black",
+            "price": 1450,
+            "category": "Smartphone",
+            "img": "../images/Samsung_S23Ultra_Black.png"
+        },
+        {
+            "id": 14,
+            "name": "Ipad Pro M2 Space Gray",
+            "price": 1000,
+            "category": "Ipad",
+            "img": "../images/Ipad_Pro_M2_Space_Gray.png"
+        },
+        {
+            "id": 15,
+            "name": "Ipad Pro M2 White",
+            "price": 1050,
+            "category": "Ipad",
+            "img": "../images/Ipad_Pro_M2_White.png"
+        },
+        {
+            "id": 16,
+            "name": "Ipad Air 5 Blue",
+            "price": 750,
+            "category": "Ipad",
+            "img": "../images/Ipad_Air_5_Blue.png"
+        },
+        {
+            "id": 17,
+            "name": "Ipad Air 5 Starlight",
+            "price": 800,
+            "category": "Ipad",
+            "img": "../images/Ipad_Air_5_Starlight.png"
+        },
+        {
+            "id": 18,
+            "name": "Ipad Air 5 Pink",
+            "price": 770,
+            "category": "Ipad",
+            "img": "../images/Ipad_Air_5_Pink.png"
+        },
+        {
+            "id": 19,
+            "name": "MacBook Pro M2 Silver",
+            "price": 1350,
+            "category": "MacBook",
+            "img": "../images/MacBook_Pro_M2_Silver.png"
+        },
+        {
+            "id": 20,
+            "name": "MacBook Air M2 Silver",
+            "price": 1250,
+            "category": "MacBook",
+            "img": "../images/MacBook_Air_M2_Silver.png"
+        }
+    ]
+}
